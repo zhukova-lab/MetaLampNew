@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _babel_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./babel.js */ "./babel.js");
 /* harmony import */ var _babel_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_less_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/less.less */ "./styles/less.less");
+/* harmony import */ var _styles_common_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/common.less */ "./styles/common.less");
 /* harmony import */ var _pages_index_pug__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/index.pug */ "./pages/index.pug");
 /* harmony import */ var _pages_index_pug__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pages_index_pug__WEBPACK_IMPORTED_MODULE_3__);
  // import json from './assets/json'
@@ -65,10 +65,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./styles/less.less":
-/*!**************************!*\
-  !*** ./styles/less.less ***!
-  \**************************/
+/***/ "./styles/common.less":
+/*!****************************!*\
+  !*** ./styles/common.less ***!
+  \****************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

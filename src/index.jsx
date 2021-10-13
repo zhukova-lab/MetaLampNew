@@ -3,7 +3,7 @@ import * as $ from 'jquery'
 // import React from 'react'
 // import { render } from 'react-dom'
 import './babel.js'
-import './styles/less.less'
+import './styles/common.less'
 import './pages/index.pug'
 
 

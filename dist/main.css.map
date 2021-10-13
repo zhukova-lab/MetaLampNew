@@ -1,1 +1,1 @@
-{"version":3,"file":"main.css","mappings":";;;AAEA;EACI;EACA;EACA;AADJ;AAFA;EAOI;EACA;AAFJ","sources":["webpack:///./styles/less.less"],"sourcesContent":["@border: 1px solid #ccc;\n\n.box {\n    padding: 1rem;\n    border-radius: 5px;\n    border: @border;\n\n\n    h2 {\n    text-align: center;\n    color: blue;\n}\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"main.css","mappings":";;;AAAA;EACI;AACJ","sources":["webpack:///./styles/common.less"],"sourcesContent":["header {\n    color: red;\n}"],"names":[],"sourceRoot":""}
