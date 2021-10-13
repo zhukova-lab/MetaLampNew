@@ -1,8 +1,44 @@
 /*!***************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./styles/common.less ***!
   \***************************************************************************************************************/
-header {
-  color: red;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+body {
+  background-color: #d4d4d4;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  background: #FFFFFF;
+  padding: 15px 140px;
+}
+.header-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.header-nav-list {
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
 }
 
 
