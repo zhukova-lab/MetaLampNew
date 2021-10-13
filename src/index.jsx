@@ -5,6 +5,7 @@ import * as $ from 'jquery'
 import './babel.js'
 import './styles/common.less'
 import './pages/index.pug'
+import './fonts/fonts.css'
 
 
 
