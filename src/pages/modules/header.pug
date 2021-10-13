@@ -2,11 +2,11 @@
 
 header.header
     .header-wrapper.container 
-        //- include ../modules/logo     
+        include /logo     
         ul.header-nav-list
             for value in headerNavMenu  
                 li.header-nav-list-item 
                     a(href="").header-nav-link=value
-        //- include ../modules/button         
-        //- +button('войти','button-entry')
-        //- +button('зарегистрироваться','button-sing-up')
+        include /button         
+        +button('войти','button-entry')
+        +button('зарегистрироваться','button-sing-up')

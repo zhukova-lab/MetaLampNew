@@ -1,0 +1,6 @@
+mixin button(name,className)
+    button.button(class=className)=name
+
+mixin socialButton(link,value)
+    a.social-button-link(href = link)
+        i.social-button(class="fab fa-"+value aria-hidden="true")
