@@ -40,6 +40,27 @@ a {
   margin-left: auto;
   gap: 20px;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.button {
+  border: none;
+  padding: 10px 20px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+.button-entry {
+  color: #BC9CFF;
+  border: 1px solid #BC9CFF;
+  background: none;
+}
 
 
 /*# sourceMappingURL=main.css.map*/
