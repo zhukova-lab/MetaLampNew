@@ -86,7 +86,40 @@ __webpack_require__.r(__webpack_exports__);
 
 var pug = __webpack_require__(/*! !../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;pug_html = pug_html + "\u003C!DOCTYPE html\u003E\u003Chtml lang=\"en\"\u003E\u003Chead\u003E\u003Cmeta charset=\"UTF-8\"\u003E\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\u003Ctitle\u003EDocument\u003C\u002Ftitle\u003E\u003C\u002Fhead\u003E\u003Cbody\u003E \u003C\u002Fbody\u003E\u003C\u002Fhtml\u003E";;return pug_html;};
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;pug_html = pug_html + "\u003C!DOCTYPE html\u003E\u003Chtml lang=\"en\"\u003E\u003Chead\u003E\u003Cmeta charset=\"UTF-8\"\u003E\u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003E\u003Ctitle\u003EDocument\u003C\u002Ftitle\u003E\u003C\u002Fhead\u003E\u003Cbody\u003E " + (null == (pug_interp = __webpack_require__(/*! ./modules/header.pug */ "./pages/modules/header.pug").call(this, locals)) ? "" : pug_interp) + "\u003C\u002Fbody\u003E\u003C\u002Fhtml\u003E";;return pug_html;};
+module.exports = template;
+
+/***/ }),
+
+/***/ "./pages/modules/header.pug":
+/*!**********************************!*\
+  !*** ./pages/modules/header.pug ***!
+  \**********************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var pug = __webpack_require__(/*! !../../../node_modules/pug-runtime/index.js */ "../node_modules/pug-runtime/index.js");
+
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;let headerNavMenu = ['О нас','Услуги','Вакансии','Новости','Соглашения']
+pug_html = pug_html + "\u003Cheader class=\"header\"\u003E\u003Cdiv class=\"header-wrapper container\"\u003E \u003Cul class=\"header-nav-list\"\u003E";
+// iterate headerNavMenu  
+;(function(){
+  var $$obj = headerNavMenu  ;
+  if ('number' == typeof $$obj.length) {
+      for (var pug_index0 = 0, $$l = $$obj.length; pug_index0 < $$l; pug_index0++) {
+        var value = $$obj[pug_index0];
+pug_html = pug_html + "\u003Cli class=\"header-nav-list-item\"\u003E \u003Ca class=\"header-nav-link\" href=\"\"\u003E" + (pug.escape(null == (pug_interp = value) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+      }
+  } else {
+    var $$l = 0;
+    for (var pug_index0 in $$obj) {
+      $$l++;
+      var value = $$obj[pug_index0];
+pug_html = pug_html + "\u003Cli class=\"header-nav-list-item\"\u003E \u003Ca class=\"header-nav-link\" href=\"\"\u003E" + (pug.escape(null == (pug_interp = value) ? "" : pug_interp)) + "\u003C\u002Fa\u003E\u003C\u002Fli\u003E";
+    }
+  }
+}).call(this);
+
+pug_html = pug_html + "\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\u003C\u002Fheader\u003E";;return pug_html;};
 module.exports = template;
 
 /***/ }),
